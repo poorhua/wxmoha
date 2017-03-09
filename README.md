@@ -1,6 +1,6 @@
 # wxmoha
 微信公众平台帐号mycrouchred(如果闷声发大财不被发现的话)  
-这是一个自动回复的公众号，大致上会回复一些蛤蛤的语录。 
+这是一个自动回复的公众号，大致上会回复一些蛤蛤的语录.<br>
 ![qr_mycrouchred](https://github.com/crouchred/wxmoha/raw/master/assets/qr_mycrouchred.jpg)
 
 ### 蛤蛤语录(欢迎各界人士补充)
