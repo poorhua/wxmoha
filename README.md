@@ -1,6 +1,7 @@
 # wxmoha
-微信公众平台帐号mycrouchred(如果闷声发大财不被发现的话)
-这是一个自动回复的公众号，大致上会回复一些蛤蛤的语录。
+微信公众平台帐号mycrouchred(如果闷声发大财不被发现的话)  
+这是一个自动回复的公众号，大致上会回复一些蛤蛤的语录。 
+![qr_mycrouchred]("https://github.com/crouchred/wxmoha/raw/master/assets/qr_mycrouchred.jpg")
 
 ### 配置
 需要在bash中输入如下命令，建议使用[autoenv](https://github.com/kennethreitz/autoenv)进行环境变量设置
@@ -14,11 +15,11 @@ python3 moha.py
 1. 开发框架使用WeRoBot
 2. 对于输入的语句采用结巴分词进行分词处理
 3. 采用类似搜索引擎的倒排索引进行匹配
-4. 维护一个csv的蛤蛤语料库(answer_data.csv)
+4. 维护一个csv的蛤蛤语料库([answer_data.csv](https://github.com/crouchred/wxmoha/blob/master/answer_data.csv))
 5. 如果没有匹配上蛤蛤语录，会调用图灵的接口，还蛮有趣的。。
 
 ### 蛤蛤语录(欢迎各界人士补充)
-answer_data.csv
+[answer_data.csv](https://github.com/crouchred/wxmoha/blob/master/answer_data.csv)
 以下面这句为例：
 ```
 支持,当然啦|无可奉告 
