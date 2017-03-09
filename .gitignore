@@ -1,0 +1,6 @@
+__pycache__
+frp/
+*.sqlite3
+.DS_Store
+venv/
+.env
