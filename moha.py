@@ -5,6 +5,7 @@ from util import Tuling, MohaAnswer
 token=os.environ.get('WXTOKEN')
 tuling_key = os.environ.get('TULINGKEY')
 
+basedir = os.path.abspath(os.path.dirname(__file__))
 if token is None:
     raise Exception("token should be set as environment variable")
 robot = werobot.WeRoBot(token=token)
@@ -17,7 +18,7 @@ tuling = Tuling(tuling_key)
 @robot.text
 def reply(msg, session):
     content = msg.content
-    moha = MohaAnswer("./answer_data.csv")
+    moha = MohaAnswer(basedir + "/answer_data.csv")
     answer = moha.answer(content)
     if answer is None:
         answer = tuling.response(content)
